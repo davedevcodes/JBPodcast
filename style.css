@@ -543,7 +543,7 @@ hr{
 .rContainer .bookLink img{
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 10px;
     object-fit: cover;
     object-position: center;
 }
