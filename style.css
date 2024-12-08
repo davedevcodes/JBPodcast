@@ -820,7 +820,7 @@ hr{
     word-spacing: 2px;
     max-width: 650px;
 }
-.ytvideo video{
+.ytvideo iframe{
     width: 650px;
     height: 400px;
     /* background-color: #fff; */
