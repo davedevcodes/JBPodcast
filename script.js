@@ -14,3 +14,20 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe the target element
 observer.observe(slideInElement);
+
+
+window.onload = function () {
+    // Hide the loading screen
+    const loadingScreen = document.getElementById('loading-screen');
+    loadingScreen.style.opacity = '1'; // Fade out effect
+    loadingScreen.style.transition = 'opacity 0.5s ease';
+
+    // Wait for the fade-out effect to complete before removing the element
+    setTimeout(() => {
+        loadingScreen.style.display = 'none';
+        
+        // Show the main content
+        const mainContent = document.getElementById('main-content');
+        mainContent.style.display = 'block';
+    }, 6000); // Set to 4000ms (4 seconds)
+};
