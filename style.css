@@ -789,7 +789,7 @@ hr{
 .reach-out{
     background-color: #fff;
     position: relative;
-    top: 100px;
+    top: 70px;
     padding: 50px;
     border-radius: 20px;
     height: 600px;
@@ -838,7 +838,7 @@ hr{
 }
 .connect-socias{
     position: relative;
-    top: 100px;
+    top: 70px;
     display: flex;
     flex-direction: column;
     gap: 25px;
