@@ -793,7 +793,7 @@ hr{
     padding: 50px;
     border-radius: 20px;
     height: 650px;
-    width: 500px;
+    width: 550px;
     box-shadow: 2px 2px 25px rgba(0, 0, 0, .8);
 }
 .reach-out h1{
@@ -807,7 +807,7 @@ hr{
     gap: 10px;
 }
 .reach-out form label{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500px;
     margin-top: 10px;
 }
