@@ -245,7 +245,7 @@ nav button{
     flex-direction: column;
     gap: 20px;
     position: relative;
-    top: 35vh;
+    top: 30vh;
     width: 45vw;
 }
 .intro h3{
