@@ -853,11 +853,11 @@ hr{
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 .connect-socias ul li{
     width: 400px;
-    height: 50px;
+    height: 60px;
     border-radius: 5px;
     display: flex;
     align-items: center;
