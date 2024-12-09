@@ -11,7 +11,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <video class="bgvideo" autoplay loop muted>
+        <div id="loading-screen">
+            <div class="container">
+                <div class="📦"></div>
+                <div class="📦"></div>
+                <div class="📦"></div>
+                <div class="📦"></div>
+                <div class="📦"></div>
+            </div>
+        </div>
+        <div id="main-content" style="display: none;">
+            <video class="bgvideo" autoplay loop muted>
             <source src="./podcast-bg-3.mp4">
         </video>
         <header>
@@ -179,6 +189,7 @@ Through his podcast, Pastor Brodrick shares powerful scriptural insights and pra
             </div>
         </footer>
         
+        </div>
         <script src="./script.js" async defer></script>
     </body>
 </html>
