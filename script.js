@@ -29,4 +29,7 @@ window.onload = function () {
         loadingScreen.style.display = 'none';
         
         // Show the main content
-        const mainContent = document
+        const mainContent = document.getElementById('main-content');
+        mainContent.style.display = 'block';
+    }, 500); // Matches the fade-out duration
+};
