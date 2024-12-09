@@ -273,12 +273,21 @@ nav button{
     left: -50px;
     /* padding: 100px; */
 }
+
+.sect .imgbox img.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .sect .imgbox img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
 }
 .sect .Atext{
     display: flex;
