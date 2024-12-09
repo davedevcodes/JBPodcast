@@ -193,5 +193,22 @@ Through his podcast, Pastor Brodrick shares powerful scriptural insights and pra
         </div>
         
         <script src="./script.js" async defer></script>
+        <script>
+            window.onload = function () {
+    // Hide the loading screen
+    const loadingScreen = document.getElementById('loading-screen');
+    loadingScreen.style.opacity = '1'; // Fade out effect
+    loadingScreen.style.transition = 'opacity 0.5s ease';
+
+    // Wait for the fade-out effect to complete before removing the element
+    setTimeout(() => {
+        loadingScreen.style.display = 'none';
+        
+        // Show the main content
+        const mainContent = document.getElementById('main-content');
+        mainContent.style.display = 'block';
+    }, 4000); // Set to 7000ms (4 seconds)
+};
+        </script>
     </body>
 </html>
