@@ -29,5 +29,5 @@ window.onload = function () {
         // Show the main content
         const mainContent = document.getElementById('main-content');
         mainContent.style.display = 'block';
-    }, 6000); // Set to 4000ms (4 seconds)
+    }, 4000); // Set to 4000ms (4 seconds)
 };
