@@ -5,10 +5,12 @@ const slideInElement = document.querySelector('.slide-in');
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
+            entry.target.classList.add('visible'); // Add the class when in view
+        } else {
+            entry.target.classList.remove('visible'); // Remove the class when out of view
         }
     });
-}, { threshold: 0.1 });
+}, { threshold: 0.1 }); // Adjust threshold as needed
 
 // Observe the target element
 observer.observe(slideInElement);
