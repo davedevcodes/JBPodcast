@@ -14,7 +14,16 @@ html{
     --text-color: #fff;
     --primary-color: rgb(72, 204, 83);
 }
-
+.bgvideo{
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(60%);
+    
+}
 .bgimg{
     position: fixed;
     z-index: -1;
