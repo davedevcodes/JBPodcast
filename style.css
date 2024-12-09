@@ -792,14 +792,14 @@ hr{
     top: 70px;
     padding: 50px;
     border-radius: 20px;
-    height: 600px;
+    height: 650px;
     width: 500px;
     box-shadow: 2px 2px 25px rgba(0, 0, 0, .8);
 }
 .reach-out h1{
     font-weight: 500;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .reach-out form{
     display: flex;
