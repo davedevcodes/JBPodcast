@@ -180,6 +180,15 @@ html{
   #closeButton i{
     color: #c1c1c1;
   }
+#menuButton{
+	background: transparent;
+	border: none;
+	outline:none;
+}
+#menuButton i{
+	color: #fff;
+	font-size: 20px;
+}
 .nav-inner-container{
     display: flex;
     flex-direction: column;
