@@ -290,6 +290,10 @@
     .rContainer .bookLink{
         justify-content: center;
     }
+    .rContainer .bookLink img{
+        width: 100px;
+        height: 100px;
+    }
     #about .title{
         text-align: center;
         margin-bottom: 60px;
