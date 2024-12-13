@@ -153,7 +153,7 @@ html{
     top: -100%;
     left: 0;
     width: 100vw;
-    height: 50vh;
+    height: fit-content;
     background-color: #1e1e1e;
     color: #ccc;
     display: flex;
