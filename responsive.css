@@ -139,7 +139,7 @@
     }
     .sect .imgbox img{
         border-radius: 0px;
-        object-position: center -20px;
+        object-fit: contain;
     }
     .morebooks ul{
         width: 100%;
