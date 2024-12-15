@@ -523,16 +523,16 @@
 }
 @media (max-width: 400px) {
     header nav{
-        padding: 10px;
+        padding: 10px 20px;
     }
     #explore{
-        padding: 50px 10px 100px;
+        padding: 50px 20px 100px;
     }
     #explore .ETITLE::before{
         display: none;
     }
     #contact{
-        padding: 30px 10px>;
+        padding: 30px 20px>;
     }
     .reach-out{
         height: fit-content;
