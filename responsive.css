@@ -419,6 +419,11 @@
         text-align: left;
         gap: 100px;
     }
+    footer .footer-left{
+        width: 100%;
+        display: flex;
+        text-align: left;
+    }
     .reach-out{
         background-color: #fff;
         position: relative;
