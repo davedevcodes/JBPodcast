@@ -214,10 +214,10 @@
 
 @media (max-width: 770px) {
     .landingPage{
-        padding: 10vh 50px 50px;
+        padding: 10vh 40px 50px;
     }
     header nav{
-        padding: 10px 50px;
+        padding: 10px 40px;
     }
     .intro h1{
         font-size: 6em;
@@ -245,7 +245,7 @@
     #contact{
         width: 100%;
         height: 100%;
-        padding: 20px 50px 100px;
+        padding: 20px 40px 100px;
         display: flex;
         flex-direction: column;
         justify-content: none;
@@ -266,7 +266,7 @@
         font-weight: 600;
     }
     .ytvideo iframe{
-        width: 100%;
+        width: 80%;
         height: 400px;
         /* background-color: #fff; */
     }
@@ -381,6 +381,11 @@
     }
 }
 @media (max-width: 520px) {
+     .ytvideo iframe{
+        width: 80%;
+        height: 300px;
+        /* background-color: #fff; */
+    }
     .ytvideo{
         padding: 50px 30px 100px;
     }
@@ -440,6 +445,9 @@
 
 }
 @media (max-width: 455px) {
+    header nav{
+        padding: 10px 20px;
+    }
     #explore .ETITLE{
         font-weight: 500;
         font-size: 25px;
@@ -454,7 +462,7 @@
         background-color: var(--primary-color);
     }
     #comments{
-        padding: 100px 50px;
+        padding: 100px 30px;
     }
 }
 @media (max-width: 430px) {
@@ -514,14 +522,17 @@
     }
 }
 @media (max-width: 400px) {
+    header nav{
+        padding: 10px;
+    }
     #explore{
-        padding: 50px 50px 100px;
+        padding: 50px 10px 100px;
     }
     #explore .ETITLE::before{
         display: none;
     }
     #contact{
-        padding: 30px;
+        padding: 30px 10px>;
     }
     .reach-out{
         height: fit-content;
